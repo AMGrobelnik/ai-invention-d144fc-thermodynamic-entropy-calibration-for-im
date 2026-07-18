@@ -1,0 +1,129 @@
+{
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "cultural satire",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "uncommonly sincere movie that portrays the frank humanity of emotional recovery",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "impressively bad acting",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "worst movie I have ever seen",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "a delightful film with great performances",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "boring and predictable storyline",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "masterpiece of modern cinema",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "complete waste of time",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "beautifully shot and well acted",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "terrible screenplay and direction",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "hilarious comedy that had me laughing",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "disappointing sequel to a great film",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "stunning visuals and amazing soundtrack",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "confusing plot and poor editing",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "emotional and powerful storytelling",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "overrated and tedious to watch",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "charming and heartwarming story",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "uninspired and derivative work",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "captivating from start to finish",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "lacks any originality or creativity",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        }
+      ]
+    }
+  ]
+}

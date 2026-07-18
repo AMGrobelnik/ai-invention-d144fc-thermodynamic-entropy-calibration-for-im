@@ -1,0 +1,134 @@
+{
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "cultural satire ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": ", uncommonly sincere movie that portrays the frank humanity of ... emotional recovery ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "impressively ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "otherwise drowns in a sea of visual and verbal clichés ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "are stanzas of breathtaking , awe-inspiring visual poetry ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "has the perfect face to play a handsome blank yearning to find himself ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "everyone thinks poo-poo jokes are ` edgy ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "sappy as big daddy ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "the package in which this fascinating -- and timely -- content comes wrapped is disappointingly generic . ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "a wise and powerful tale ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "is little else to recommend `` never again ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "anchoring ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": ", it already has one strike against it . ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "is ultimately rather silly and overwrought , making the ambiguous ending seem goofy rather than provocative ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": ", the wild thornberrys movie does n't offer much more than the series ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "most daring , and complicated , performances ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "to his supple understanding of the role ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "all too literally ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "a strong sense of humanism ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "be smarter and more diabolical than you could have guessed at the beginning ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "Mini demo dataset for TEC vs TS calibration experiment - SST-2 sentiment classification",
+    "num_datasets": 1,
+    "total_examples": 20
+  }
+}

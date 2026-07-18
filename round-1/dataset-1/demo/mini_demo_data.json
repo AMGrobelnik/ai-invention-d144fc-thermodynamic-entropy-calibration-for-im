@@ -1,0 +1,74 @@
+{
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "cultural satire ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "impressively ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "a wise and powerful tale ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "anchoring ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "a strong sense of humanism ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "otherwise drowns in a sea of visual and verbal clichés ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "everyone thinks poo-poo jokes are ` edgy ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "sappy as big daddy ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "the package in which this fascinating -- and timely -- content comes wrapped is disappointingly generic . ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "is little else to recommend `` never again ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "Text classification datasets for LLM calibration - Demo subset (SST-2 only)",
+    "num_datasets": 1,
+    "total_examples": 10
+  }
+}
