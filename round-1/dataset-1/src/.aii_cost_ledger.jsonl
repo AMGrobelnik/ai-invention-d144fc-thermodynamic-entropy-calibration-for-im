@@ -1,0 +1,3 @@
+{"ts": 1784389854.128514, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "SST-2 Stanford Sentiment Treebank dataset benchmark", "count": 5}
+{"ts": 1784389856.1213944, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "AG News dataset topic classification benchmark", "count": 5}
+{"ts": 1784389858.450628, "tool": "aii_web_tools__search", "cost_usd": 0.001, "query": "GLUE benchmark MNLI QNLI RTE dataset", "count": 5}

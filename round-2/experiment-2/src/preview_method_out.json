@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "experiment_name": "inference_time_temperature_annealing",
+    "methods": [
+      "uncalibrated",
+      "temperature_scaling",
+      "thermodynamic_entropy_calibration"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "cultural satire ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1,
+          "predict_baseline": "1",
+          "predict_our_method": "1"
+        },
+        {
+          "input": ", uncommonly sincere movie that portrays the frank humanity of ... emotional recovery ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1,
+          "predict_baseline": "1",
+          "predict_our_method": "1"
+        },
+        {
+          "input": "impressively ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1,
+          "predict_baseline": "1",
+          "predict_our_method": "1"
+        }
+      ]
+    },
+    {
+      "dataset": "ag_news",
+      "examples": [
+        {
+          "input": "Finley to Remain in Southern Calif., with Angels (Reuters) Reuters - The Anaheim Angels have\\reportedly agreed to a contract with veteran free-agent\\outfielder Steve Finley.",
+          "output": "1",
+          "metadata_label_text": "Sports",
+          "metadata_original_label": 1,
+          "predict_baseline": "1",
+          "predict_our_method": "1"
+        },
+        {
+          "input": "UN 'will miss education target' A report suggests the UN's target of universal primary education by 2015 is unlikely to be reached.",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0,
+          "predict_baseline": "0",
+          "predict_our_method": "0"
+        },
+        {
+          "input": "Hamas vows to hit Israeli targets abroad Al Qassam Brigades, the armed wing of Palestinian Islamic resistance movement Hamas, vowed on Sunday to hit Israeli targets abroad after one of its leaders was...",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0,
+          "predict_baseline": "0",
+          "predict_our_method": "0"
+        }
+      ]
+    },
+    {
+      "dataset": "dbpedia",
+      "examples": [
+        {
+          "input": "Title: Gangsta Harmony Content:  Gangsta Harmony is the debut album by singer/producer Mo B. Dick. It was released on April 13 1999 through No Limit Records and was produced by Mo B. Dick himself and ...",
+          "output": "11",
+          "metadata_label_text": "class_11",
+          "metadata_original_label": 11,
+          "predict_baseline": "11",
+          "predict_our_method": "11"
+        },
+        {
+          "input": "Title: Janina Świętokrzyskie Voivodeship Content:  Janina [jaˈnina] is a village in the administrative district of Gmina Busko-Zdrój within Busko County Świętokrzyskie Voivodeship in south-central Pol...",
+          "output": "8",
+          "metadata_label_text": "class_8",
+          "metadata_original_label": 8,
+          "predict_baseline": "8",
+          "predict_our_method": "8"
+        },
+        {
+          "input": "Title: Temple Hotels Content:  Temple Hotels Inc. is an open-ended real estate investment trust that owns hotels on the Canadian Prairies and Far North. Most of the companies hotels are located in the...",
+          "output": "0",
+          "metadata_label_text": "class_0",
+          "metadata_original_label": 0,
+          "predict_baseline": "0",
+          "predict_our_method": "0"
+        }
+      ]
+    }
+  ]
+}

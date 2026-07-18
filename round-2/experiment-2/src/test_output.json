@@ -1,0 +1,15 @@
+{
+  "experiment_name": "test",
+  "results": {
+    "sst-2": {
+      "uncalibrated": {
+        "accuracy": 0.4
+      }
+    },
+    "ag_news": {
+      "uncalibrated": {
+        "accuracy": 0.3333333333333333
+      }
+    }
+  }
+}

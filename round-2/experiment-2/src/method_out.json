@@ -1,0 +1,121 @@
+{
+  "experiment_name": "inference_time_temperature_annealing",
+  "datasets": [
+    "sst-2",
+    "ag_news",
+    "dbpedia"
+  ],
+  "methods": [
+    "uncalibrated",
+    "temperature_scaling",
+    "thermodynamic_entropy_calibration",
+    "annealing_softmax"
+  ],
+  "results": {
+    "sst-2": {
+      "uncalibrated": {
+        "accuracy": 0.54,
+        "ece": 0.2985450542759568,
+        "brier_score": 0.344032143223171,
+        "params": {}
+      },
+      "temperature_scaling": {
+        "accuracy": 0.54,
+        "ece": 0.13016740848428704,
+        "brier_score": 0.26732316356987895,
+        "params": {
+          "temperature": 2.8999999999999995
+        }
+      },
+      "thermodynamic_entropy_calibration": {
+        "accuracy": 0.54,
+        "ece": 0.13016740848428704,
+        "brier_score": 0.26732316356987895,
+        "params": {
+          "temperature": 2.8999999999999995,
+          "entropy_weight": -0.10000000000000009
+        }
+      },
+      "annealing_softmax": {
+        "accuracy": 0.51,
+        "ece": 0.23997177232228198,
+        "brier_score": 0.3000275547391056,
+        "params": {
+          "T_start": 2.0,
+          "T_end": 1.0,
+          "schedule_type": "linear"
+        }
+      }
+    },
+    "ag_news": {
+      "uncalibrated": {
+        "accuracy": 0.25,
+        "ece": 0.43476798690717433,
+        "brier_score": 0.27391599735347966,
+        "params": {}
+      },
+      "temperature_scaling": {
+        "accuracy": 0.25,
+        "ece": 0.20068817195261165,
+        "brier_score": 0.21172692973937474,
+        "params": {
+          "temperature": 2.8999999999999995
+        }
+      },
+      "thermodynamic_entropy_calibration": {
+        "accuracy": 0.25,
+        "ece": 0.20068817195261163,
+        "brier_score": 0.21172692973937474,
+        "params": {
+          "temperature": 2.8999999999999995,
+          "entropy_weight": -0.5
+        }
+      },
+      "annealing_softmax": {
+        "accuracy": 0.255,
+        "ece": 0.33705269942180366,
+        "brier_score": 0.24560836008289896,
+        "params": {
+          "T_start": 2.0,
+          "T_end": 1.0,
+          "schedule_type": "linear"
+        }
+      }
+    },
+    "dbpedia": {
+      "uncalibrated": {
+        "accuracy": 0.065,
+        "ece": 0.418364945254504,
+        "brier_score": 0.08726388586440158,
+        "params": {}
+      },
+      "temperature_scaling": {
+        "accuracy": 0.065,
+        "ece": 0.131697112221612,
+        "brier_score": 0.06972609591246177,
+        "params": {
+          "temperature": 2.8999999999999995
+        }
+      },
+      "thermodynamic_entropy_calibration": {
+        "accuracy": 0.065,
+        "ece": 0.131697112221612,
+        "brier_score": 0.06972609591246179,
+        "params": {
+          "temperature": 2.8999999999999995,
+          "entropy_weight": -0.5
+        }
+      },
+      "annealing_softmax": {
+        "accuracy": 0.06,
+        "ece": 0.3091503048502151,
+        "brier_score": 0.07883651710650079,
+        "params": {
+          "T_start": 2.0,
+          "T_end": 1.0,
+          "schedule_type": "linear"
+        }
+      }
+    }
+  }
+}

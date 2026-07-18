@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "experiment": "TEC_vs_TS_evaluation",
+    "methods": [
+      "Uncalibrated",
+      "Temperature Scaling",
+      "TEC"
+    ],
+    "metrics": [
+      "ECE",
+      "Brier",
+      "NLL"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "i was entranced . ",
+          "output": "1",
+          "predict_Uncalibrated": "0.007819149692853269",
+          "predict_Temperature_Scaling": "0.00415257260644719",
+          "predict_TEC": "0.00712717228452382"
+        },
+        {
+          "input": "enters a realm where few non-porn films venture , and comes across as darkly funny , energetic , and surprisingly gentle . ",
+          "output": "1",
+          "predict_Uncalibrated": "0.007819149692853269",
+          "predict_Temperature_Scaling": "0.00415257260644719",
+          "predict_TEC": "0.00712717228452382"
+        },
+        {
+          "input": "does n't overcome the tumult of maudlin tragedy ",
+          "output": "0",
+          "predict_Uncalibrated": "0.007819149692853269",
+          "predict_Temperature_Scaling": "0.00415257260644719",
+          "predict_TEC": "0.00712717228452382"
+        }
+      ]
+    },
+    {
+      "dataset": "ag_news",
+      "examples": [
+        {
+          "input": "Sometimes, Your New Smile Will Make You Frown Veneers, porcelain shells bonded to the front side of the teeth, may not provide smiles as pretty as expected.",
+          "output": "3",
+          "predict_Uncalibrated": "0.06252485081553458",
+          "predict_Temperature_Scaling": "0.0029104886643901984",
+          "predict_TEC": "0.014624140247059915"
+        },
+        {
+          "input": "Tupperware Posts Profit, Narrows '04 View  NEW YORK (Reuters) - Tupperware Corp. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=TUP.N target=/stocks/quickinfo/fullquote\"&gt;TUP.N&lt...",
+          "output": "2",
+          "predict_Uncalibrated": "0.06252485081553458",
+          "predict_Temperature_Scaling": "0.0029104886643901984",
+          "predict_TEC": "0.014624140247059915"
+        },
+        {
+          "input": "Davenport reaches Cincinnati Open final CINCINNATI (Ohio): American Lindsay Davenport advanced to the final of the WTA Cincinnati Open on Saturday after Frances Marion Bartoli pulled out with a bliste...",
+          "output": "1",
+          "predict_Uncalibrated": "0.06252485081553458",
+          "predict_Temperature_Scaling": "0.0029104886643901984",
+          "predict_TEC": "0.014624140247059915"
+        }
+      ]
+    },
+    {
+      "dataset": "mnli",
+      "examples": [
+        {
+          "input": "Premise: well here's the poor United States they helped us get on our feet so let's help them Hypothesis: They helped out the United States so we should return the favor.",
+          "output": "0",
+          "predict_Uncalibrated": "0.6336973665654659",
+          "predict_Temperature_Scaling": "0.16860851784353395",
+          "predict_TEC": "0.2293194562618757"
+        },
+        {
+          "input": "Premise: Guadeloupe's two component islands are notably dissimilar and confusingly named. Hypothesis: Guadeloupe has two islands that are named in a confusing fashion.",
+          "output": "0",
+          "predict_Uncalibrated": "0.6336973665654659",
+          "predict_Temperature_Scaling": "0.16860851784353395",
+          "predict_TEC": "0.2293194562618757"
+        },
+        {
+          "input": "Premise: By the time Lisbon mounted a rescue mission, the pirates had long fled (though Montluc himself had been killed during the raid). Hypothesis: The pirates settled in for a long stay and no help...",
+          "output": "2",
+          "predict_Uncalibrated": "0.6336973665654659",
+          "predict_Temperature_Scaling": "0.16860851784353395",
+          "predict_TEC": "0.2293194562618757"
+        }
+      ]
+    }
+  ]
+}

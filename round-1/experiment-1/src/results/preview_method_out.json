@@ -1,0 +1,42 @@
+{
+  "datasets": [
+    {
+      "dataset": "sst2",
+      "examples": [
+        {
+          "input": "Sample 0: logits=[-0.07941308850973672, 4.486622148031033]",
+          "output": "True label: 0",
+          "predict_uncalibrated": "1",
+          "predict_temperature_scaling": "1",
+          "predict_thermodynamic_entropy": "1",
+          "metadata_uncalibrated_probs": "[0.010292079646927067, 0.9897079203530729]",
+          "metadata_ts_probs": "[0.2673220438625451, 0.7326779561374549]",
+          "metadata_te_probs": "[0.10542067569897867, 0.8945793243010214]",
+          "metadata_test_logits": "[-0.07941308850973672, 4.486622148031033]"
+        },
+        {
+          "input": "Sample 1: logits=[-0.7809034017948001, 4.191316760053625]",
+          "output": "True label: 1",
+          "predict_uncalibrated": "1",
+          "predict_temperature_scaling": "1",
+          "predict_thermodynamic_entropy": "1",
+          "metadata_uncalibrated_probs": "[0.0068800866993594155, 0.9931199133006405]",
+          "metadata_ts_probs": "[0.2501252938806393, 0.7498747061193608]",
+          "metadata_te_probs": "[0.08531279512151564, 0.9146872048784843]",
+          "metadata_test_logits": "[-0.7809034017948001, 4.191316760053625]"
+        },
+        {
+          "input": "Sample 2: logits=[6.182972215874994, -0.3137614147932042]",
+          "output": "True label: 0",
+          "predict_uncalibrated": "0",
+          "predict_temperature_scaling": "0",
+          "predict_thermodynamic_entropy": "0",
+          "metadata_uncalibrated_probs": "[0.9984939137077099, 0.001506086292290197]",
+          "metadata_ts_probs": "[0.807614029580388, 0.19238597041961206]",
+          "metadata_te_probs": "[0.9611088032490049, 0.03889119675099499]",
+          "metadata_test_logits": "[6.182972215874994, -0.3137614147932042]"
+        }
+      ]
+    }
+  ]
+}

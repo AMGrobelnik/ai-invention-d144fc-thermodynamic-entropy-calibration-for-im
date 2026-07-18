@@ -1,0 +1,17 @@
+{
+  "title": "Thermodynamic Entropy Calibration Experiment",
+  "layman_summary": "Tests if treating AI model uncertainty like physics temperature improves its confidence accuracy.",
+  "summary": "Implemented and evaluated a physics-inspired calibration method that treats LLM predictive uncertainty as thermodynamic entropy. The method adjusts per-sample temperature based on predictive entropy and margin (difference between top-2 probabilities). Compared against uncalibrated baseline and standard temperature scaling (Guo et al. 2017) on synthetic miscalibrated data mimicking SST-2 sentiment classification.\n\nKey results:\n- Uncalibrated: ECE=0.243, Accuracy=74.9%\n- Temperature Scaling: ECE=0.031 (87.1% reduction), Accuracy=74.9%\n- Thermodynamic Entropy: ECE=0.162 (33.4% reduction), Accuracy=74.9%\n\nTemperature scaling outperformed the thermodynamic method on this dataset, suggesting global temperature adjustment is more effective for uniform miscalibration. The thermodynamic method still provided meaningful calibration improvement and offers interpretability through the physics analogy.\n\nExperiment includes: method.py implementation, reliability diagrams, hyperparameter tuning via grid search, and full JSON output matching exp_gen_sol_out schema.",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "results/full_method_out.json",
+    "mini_output": "results/mini_method_out.json",
+    "preview_output": "results/preview_method_out.json"
+  },
+  "upload_ignore_regexes": [
+    "(^|/)results/cache/",
+    "(^|/)results/logs/",
+    "(^|/)\\.venv/",
+    "(^|/)__pycache__/"
+  ]
+}

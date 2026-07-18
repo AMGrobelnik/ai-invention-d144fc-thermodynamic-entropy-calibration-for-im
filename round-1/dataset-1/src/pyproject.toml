@@ -1,0 +1,20 @@
+[project]
+name = "text-classification-datasets-for-llm-calibration"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets==5.0.0",
+    "pandas==3.0.3",
+    "scikit-learn==1.9.0",
+    "scipy==1.18.0",
+    "numpy==2.5.1",
+    "huggingface-hub==1.23.0",
+    "pyarrow==25.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []

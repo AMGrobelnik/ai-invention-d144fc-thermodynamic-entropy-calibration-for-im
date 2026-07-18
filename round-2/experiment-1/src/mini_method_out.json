@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "experiment": "TEC_vs_TS_evaluation",
+    "methods": [
+      "Uncalibrated",
+      "Temperature Scaling",
+      "TEC"
+    ],
+    "metrics": [
+      "ECE",
+      "Brier",
+      "NLL",
+      "Accuracy"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "i was entranced . ",
+          "output": "1",
+          "predict_Uncalibrated": "0.007819149692853269",
+          "predict_Temperature_Scaling": "0.00415257260644719",
+          "predict_TEC": "0.00712717228452382"
+        },
+        {
+          "input": "enters a realm where few non-porn films venture , and comes across as darkly funny , energetic , and surprisingly gentle . ",
+          "output": "1",
+          "predict_Uncalibrated": "0.007819149692853269",
+          "predict_Temperature_Scaling": "0.00415257260644719",
+          "predict_TEC": "0.00712717228452382"
+        },
+        {
+          "input": "does n't overcome the tumult of maudlin tragedy ",
+          "output": "0",
+          "predict_Uncalibrated": "0.007819149692853269",
+          "predict_Temperature_Scaling": "0.00415257260644719",
+          "predict_TEC": "0.00712717228452382"
+        }
+      ]
+    },
+    {
+      "dataset": "ag_news",
+      "examples": [
+        {
+          "input": "Sometimes, Your New Smile Will Make You Frown Veneers, porcelain shells bonded to the front side of the teeth, may not provide smiles as pretty as expected.",
+          "output": "3",
+          "predict_Uncalibrated": "0.06252485081553458",
+          "predict_Temperature_Scaling": "0.0029104886643901984",
+          "predict_TEC": "0.014624140247059915"
+        },
+        {
+          "input": "Tupperware Posts Profit, Narrows '04 View  NEW YORK (Reuters) - Tupperware Corp. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=TUP.N target=/stocks/quickinfo/fullquote\"&gt;TUP.N&lt;/A&gt; on Monday  posted a third-quarter profit versus break-even a year earlier,  helped by improved results outside North America.",
+          "output": "2",
+          "predict_Uncalibrated": "0.06252485081553458",
+          "predict_Temperature_Scaling": "0.0029104886643901984",
+          "predict_TEC": "0.014624140247059915"
+        },
+        {
+          "input": "Davenport reaches Cincinnati Open final CINCINNATI (Ohio): American Lindsay Davenport advanced to the final of the WTA Cincinnati Open on Saturday after Frances Marion Bartoli pulled out with a blister on her right hand.",
+          "output": "1",
+          "predict_Uncalibrated": "0.06252485081553458",
+          "predict_Temperature_Scaling": "0.0029104886643901984",
+          "predict_TEC": "0.014624140247059915"
+        }
+      ]
+    },
+    {
+      "dataset": "mnli",
+      "examples": [
+        {
+          "input": "Premise: well here's the poor United States they helped us get on our feet so let's help them Hypothesis: They helped out the United States so we should return the favor.",
+          "output": "0",
+          "predict_Uncalibrated": "0.6336973665654659",
+          "predict_Temperature_Scaling": "0.16860851784353395",
+          "predict_TEC": "0.2293194562618757"
+        },
+        {
+          "input": "Premise: Guadeloupe's two component islands are notably dissimilar and confusingly named. Hypothesis: Guadeloupe has two islands that are named in a confusing fashion.",
+          "output": "0",
+          "predict_Uncalibrated": "0.6336973665654659",
+          "predict_Temperature_Scaling": "0.16860851784353395",
+          "predict_TEC": "0.2293194562618757"
+        },
+        {
+          "input": "Premise: By the time Lisbon mounted a rescue mission, the pirates had long fled (though Montluc himself had been killed during the raid). Hypothesis: The pirates settled in for a long stay and no help came from Lisbon.",
+          "output": "2",
+          "predict_Uncalibrated": "0.6336973665654659",
+          "predict_Temperature_Scaling": "0.16860851784353395",
+          "predict_TEC": "0.2293194562618757"
+        }
+      ]
+    },
+    {
+      "dataset": "qnli",
+      "examples": [
+        {
+          "input": "Question: Whose plan for the East entailed killing, deporting, or enslaving the Slavs? Sentence: During World War II, Hitler's Generalplan Ost (general plan for the East) entailed killing, deporting, or enslaving the Slavic and Jewish population of occupied Eastern Europe to create Lebensraum (living space) for German settlers.",
+          "output": "0",
+          "predict_Uncalibrated": "0.13638583918412528",
+          "predict_Temperature_Scaling": "0.007635003759603243",
+          "predict_TEC": "0.004172256437546928"
+        },
+        {
+          "input": "Question: How could radial leads be more correctly described? Sentence: Radial leads might more accurately be referred to as tandem; they are rarely actually aligned along radii of the body's circle, so the term is inexact, although universal.",
+          "output": "0",
+          "predict_Uncalibrated": "0.13638583918412528",
+          "predict_Temperature_Scaling": "0.007635003759603243",
+          "predict_TEC": "0.004172256437546928"
+        },
+        {
+          "input": "Question: Who was the Mayor of Detroit in 2011? Sentence: In 2011, Mayor Bing announced a plan to categorize neighborhoods by their needs and prioritize the most needed services for those neighborhoods.",
+          "output": "0",
+          "predict_Uncalibrated": "0.13638583918412528",
+          "predict_Temperature_Scaling": "0.007635003759603243",
+          "predict_TEC": "0.004172256437546928"
+        }
+      ]
+    },
+    {
+      "dataset": "dbpedia",
+      "examples": [
+        {
+          "input": "Title: Indian Mission Content:  Indian Mission (Luckhard Museum) is a historic Native American Christian mission at 590 E. Bay Street in Sebewaing Michigan.It was built in 1849 and added to the National Register in 1972.",
+          "output": "6",
+          "predict_Uncalibrated": "0.053063668832182886",
+          "predict_Temperature_Scaling": "0.008820837674123588",
+          "predict_TEC": "0.00748145821457237"
+        },
+        {
+          "input": "Title: A Promise (1986 film) Content:  A Promise (Japanese: 人間の約束 translit. Ningen no yakusoku) is a 1986 Japanese drama film directed by Yoshishige Yoshida. It was screened in the Un Certain Regard section the 1986 Cannes Film Festival.",
+          "output": "12",
+          "predict_Uncalibrated": "0.053063668832182886",
+          "predict_Temperature_Scaling": "0.008820837674123588",
+          "predict_TEC": "0.00748145821457237"
+        },
+        {
+          "input": "Title: Edison High School (Huntington Beach California) Content:  Edison High School is a public high school located in Huntington Beach California which first began operation in 1969. It is a part of the Huntington Beach Union High School District.",
+          "output": "1",
+          "predict_Uncalibrated": "0.053063668832182886",
+          "predict_Temperature_Scaling": "0.008820837674123588",
+          "predict_TEC": "0.00748145821457237"
+        }
+      ]
+    }
+  ]
+}

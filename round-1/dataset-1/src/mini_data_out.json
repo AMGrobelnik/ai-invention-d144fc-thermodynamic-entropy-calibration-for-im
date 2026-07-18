@@ -1,0 +1,634 @@
+{
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "cultural satire ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": ", uncommonly sincere movie that portrays the frank humanity of ... emotional recovery ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "impressively ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "otherwise drowns in a sea of visual and verbal clich\u00e9s ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "are stanzas of breathtaking , awe-inspiring visual poetry ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "has the perfect face to play a handsome blank yearning to find himself ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "everyone thinks poo-poo jokes are ` edgy ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "sappy as big daddy ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "the package in which this fascinating -- and timely -- content comes wrapped is disappointingly generic . ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "a wise and powerful tale ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "is little else to recommend `` never again ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "anchoring ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": ", it already has one strike against it . ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "is ultimately rather silly and overwrought , making the ambiguous ending seem goofy rather than provocative ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": ", the wild thornberrys movie does n't offer much more than the series ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "most daring , and complicated , performances ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "to his supple understanding of the role ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "all too literally ",
+          "output": "0",
+          "metadata_label_text": "negative",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "a strong sense of humanism ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "be smarter and more diabolical than you could have guessed at the beginning ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        }
+      ]
+    },
+    {
+      "dataset": "ag_news",
+      "examples": [
+        {
+          "input": "Finley to Remain in Southern Calif., with Angels (Reuters) Reuters - The Anaheim Angels have\\reportedly agreed to a contract with veteran free-agent\\outfielder Steve Finley.",
+          "output": "1",
+          "metadata_label_text": "Sports",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "UN 'will miss education target' A report suggests the UN's target of universal primary education by 2015 is unlikely to be reached.",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Hamas vows to hit Israeli targets abroad Al Qassam Brigades, the armed wing of Palestinian Islamic resistance movement Hamas, vowed on Sunday to hit Israeli targets abroad after one of its leaders was assassinated in Damascus earlier in the day.",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Beltran causes Cardinals concern Not to the Astros, not to the St. Louis Cardinals and certainly not to the Atlanta Braves, who saw firsthand what kind of impact he can have by feasting on the league #39;s best pitching staff during the National League Division Series.",
+          "output": "1",
+          "metadata_label_text": "Sports",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Just in time the Cubs put it all together in win over Reds A message on a dry-erase board greeted the Cubs in their clubhouse Monday and explained how they should approach the final days of the regular season.",
+          "output": "1",
+          "metadata_label_text": "Sports",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Making the call as silly as the ring tone PhoneBites' cellular service inserts sound clips into conversations. Ridiculous? The same was said of the multibillion ring tone market.",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "Paisley will  #39;call Sinn Fein #39;s bluff #39; The political future of Northern Ireland remains uncertain after the failure of three days of negotiations between Unionists and republicans which ended in acrimony at the weekend.",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Red Roof Inns Selects T-Mobile for Broadband Service (NewsFactor) NewsFactor - Building on its strategy to push its service into hotels, T-Mobile will be making its HotSpot wireless-broadband service available throughout the Red Roof Inn chain, owned by Accor. Under the agreement, guests at the Red Roof Inns can access the network in the common area and in individual rooms.",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "Beckham not retiring after all England captain David Beckham hopes to reach 100 caps for his country and play on beyond the World Cup in Germany in 2006. The Real Madrid star was reported to be considering retirement after that tournament ",
+          "output": "1",
+          "metadata_label_text": "Sports",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Cassini takes a close-up look at Saturn #39;s giant moon Titan PASADENA, Calif. The Cassini spacecraft is expected to reach its closest approach to Saturn #39;s giant moon Titan this morning. The international spacecraft entered orbit around Saturn in June and is expected ",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "Sudanese government accuses opposition of attempted coup Khartoum, Sudan- President Omar el-Bashir on Saturday called on Sudanese to train and prepare to defend their government and country against internal and external enemies, reacting angrily to what authorities said was a foiled coup plot a day earlier.",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Philippoussis Misery Continues with Tokyo Exit  TOKYO (Reuters) - Mark Philippoussis's miserable run of  form continued Monday with a 6-3, 6-4 defeat by Czech Tomas Zib  in the first round of the Japan Open.",
+          "output": "1",
+          "metadata_label_text": "Sports",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Talking Turkey This is the time of the year when Americans nationwide are gobbling up gobblers at grocery stores for holiday dinners. But out on Darrell French #39;s ",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "UN Supports OSS/Free Software In Developing World headisdead writes  quot;This BBC report has details of the IOSN #39;s (International Open Source Network) role in yesterday #39;s Software Freedom Day.",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "Lycos screensaver for anti-spam vigilantes A screensaver that uses idle computing power to identify the sites of spammers and forward data traffic to them has been too successful, according to reports, generating so much traffic that the sites are being forced off-line.",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "2nd Hurricane Deepens Wounds in Stricken Florida One death was reported as Hurricane Frances hit some of the same stops that Hurricane Charley visited three weeks ago.",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Star dust survives crash landing Scientists have salvaged intact materials from the Genesis space probe that crashed in the Utah desert last week after its parachutes failed to deploy, the US space agency said.",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "PeopleSoft not perfect on J.D. Edwards deal, CEO says In his keynote speech at PeopleSoft's Connect 2004 user conference, CEO Craig Conway acknowledged that the company made what he called well-intentioned errors in its efforts to assimilate the J.D. Edwards user base.",
+          "output": "3",
+          "metadata_label_text": "Sci/Tech",
+          "metadata_original_label": 3
+        },
+        {
+          "input": "Yukos files for bankruptcy The Yukos oil company has filed for bankruptcy in the US and appealed for a temporary restraining order against the auction of its main production unit, scheduled for Sunday.",
+          "output": "2",
+          "metadata_label_text": "Business",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Carrefour's Profit Climbs for First Half (AP) AP - Carrefour, the world's No. 2 retailer said Wednesday that its profit increased 5.3 percent in the first half of the year, as robust international operations and lower finance costs helped it ride out tough conditions at its core French superstores.",
+          "output": "2",
+          "metadata_label_text": "Business",
+          "metadata_original_label": 2
+        }
+      ]
+    },
+    {
+      "dataset": "mnli",
+      "examples": [
+        {
+          "input": "Premise: Eventually his body was washed ashore, and identified beyond any possible doubt. Hypothesis: A man's body washed ashore.",
+          "output": "0",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Premise: The giant ashlars (square stone blocks) represent for the Jewish people their past glory, as well as a promise and a dream come true. Hypothesis: Jews do not use anything to symbolize their hopes and dreams.",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: The tiny but powerful community of Parsis brought Zoroastrianism from Iran, and its people shine in business today. Hypothesis: Zoroastrianism was brought from Iran to Parsis, a tiny community.",
+          "output": "0",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Premise: In some Muslim societies, adulterers are still stoned to death. Hypothesis: In several Muslim towns, cheaters get stoned to death. But the 90% of them are women.",
+          "output": "1",
+          "metadata_label_text": "neutral",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Premise: The handsome crypto-Moorish Federal Secretariat, now the Supreme Court, was begun in 1894 (finished in 1897) and capped with three fine copper onion-domes. Hypothesis: Th Supreme Court was finished in 2000.",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: Indeed many of the carpets seem just too lovely to walk on, but they make superb wall hangings, and even if you can't remortgage your house to buy a big one, even a modest bedside rug can do wonders to warm and brighten a room. Hypothesis: None of the carpets are nice enough to be hung on walls. ",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: yeah yeah they've got a place where you can keep your boat you can they've got the dock that you can tie up tie up and it it's uh it's in a protected area Hypothesis: Don't bring your boat because they don't have a place for it.",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: In Los Angeles, many of the victims ended up at the office of the Legal Aid Foundation of Los Angeles, a legitimate nonprofit organization. Hypothesis: The Legal Aid Foundation of Los Angeles had a busy year with the increase in clients.",
+          "output": "1",
+          "metadata_label_text": "neutral",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Premise: but i hesitate to call it a war since i mean it was i guess it was i'm not used to having them over in six days you know just kind of gosh we just got started good i guess the Israelis might be over it you know uh you know because they had a seven day war at one time but uh Hypothesis: I am used to wars that last less than a week.",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: He can't help it. Hypothesis: He can help it as it's his choice.",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: This year, Ice Miller organized with the Heartland Pro Bono Council to provide more free help. Hypothesis: Ice Miller and the Heartland Pro Bono Council were rivals working against one another.",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: More specifically, the SAB recommended emphasis on Pope, et al. Hypothesis: More specifically, the SAB recommended emphasis on Pope, et al. because their findings are unassailable. ",
+          "output": "1",
+          "metadata_label_text": "neutral",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Premise: An interpretation that the representation must commence while the alien is still in the United States would encourage employers to create even greater obstacles to access to legal services while the workers are physically in the United States. Hypothesis: Requiring legal representation to be solicited while in the United States would place undue burden on the alien to garner adequate service to prevent abuse.",
+          "output": "0",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Premise: Despite its eight centuries in the making, it has preserved a wonderful harmony. Hypothesis: It has a wonderful harmony even after eight centuries.",
+          "output": "0",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Premise: Some participants suggested that the SEC may wish to consider pursuing the status to operate independently in setting its own funding levels, as the Federal Reserve does. Hypothesis: The SEC does not want to comply with standards of operation.",
+          "output": "1",
+          "metadata_label_text": "neutral",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Premise: well just any any political event or view or anything Hypothesis: Something specific and it excludes political events",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: Two windows, just for one moment standing side by side. Hypothesis: One of the windows was open.",
+          "output": "1",
+          "metadata_label_text": "neutral",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Premise:  Then the numbness of shock wore off and the pain nerves carried their messages to his brain. Hypothesis: After that, the numbing shock subsided and his brain received communication from the pain nerves. ",
+          "output": "0",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Premise: She looked excited and determined, and slightly on the defensive.  Hypothesis: She looked excited and well prepared, and a little bit on her guard.",
+          "output": "1",
+          "metadata_label_text": "neutral",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Premise: These changes were also submitted to OMB for approval. Hypothesis: These changes were so useless that they weren't mentioned anymore.",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        }
+      ]
+    },
+    {
+      "dataset": "qnli",
+      "examples": [
+        {
+          "input": "Question: Which historical novel records that Zhejiang had the best-equipped, strong navy force? Sentence: The story depicts how the states of Wei (\u9b4f) and Shu (\u8700), lack of material resources, avoided direct confrontation with the Wu.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What is thought to be the modern name of the island Legazpi called Los Barbudos? Sentence: On January 10, the Spaniards sighted another island that they named \"Placeres\", perhaps Ailuk; ten leagues away, they sighted another island that they called \"Pajares\" (perhaps Jemo).",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What was home to the warlord Yan Baihu? Sentence: Despite the removal of their court from Kuaiji to Jianye (present-day Nanjing), they continued development of the region and benefitted from influxes of refugees fleeing the turmoil in northern China.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What happens if the soverign doesn't sign the bill within the six-month time frame? Sentence: If the monarch fails to act within six months of the bill being presented to him, it becomes law without his signature.",
+          "output": "0",
+          "metadata_label_text": "not_entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Question: Who did Chopin contract with for publishing his music? Sentence: Chopin's music soon found success with publishers, and in 1833 he contracted with Maurice Schlesinger, who arranged for it to be published not only in France but, through his family connections, also in Germany and England.",
+          "output": "0",
+          "metadata_label_text": "not_entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Question: What is the name of the trail that runs from to New Haven all the way to Eastern Massachusetts? Sentence: The Farmington Canal Trail is a rail trail that will eventually run continuously from downtown New Haven to Northampton, Massachusetts.",
+          "output": "0",
+          "metadata_label_text": "not_entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Question: The President's father is from what country? Sentence: They suggest that the term \"African-American\" should refer strictly to the descendants of African slaves and free people of color who survived the slavery era in the United States.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: Is there a final endpoint in identity development? Sentence: For the most part, evidence has supported Erikson's stages: each correlates with the personality traits he originally predicted.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What atmospheric gas can be determined from fossilized leaf sizes and shapes? Sentence: Estimates of atmospheric CO2 concentrations since the Palaeozoic have been obtained from stomatal densities and the leaf shapes and sizes of ancient land plants.",
+          "output": "0",
+          "metadata_label_text": "not_entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Question: What decade does the sulfite process date to? Sentence: There are three main chemical pulping processes: the sulfite process dates back to the 1840s and it was the dominant method extent before the second world war.",
+          "output": "0",
+          "metadata_label_text": "not_entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Question: What military force was brought in to calm the situation? Sentence: By the end of December, British and French forces had totally withdrawn from Egyptian territory, while Israel completed its withdrawal in March 1957 and released all Egyptian prisoners of war.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: When did Arsenal move to Arsenal Stadium in Highbury? Sentence: Arsenal Football Club was formed as Dial Square in 1886 by workers at the Royal Arsenal in Woolwich, south-east London, and were renamed Royal Arsenal shortly afterwards.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: In what year did the papacy return to Rome? Sentence: Florence grew to prominence amongst the Italian city-states through financial business, and the dominant Medici family became important promoters of the Renaissance through their patronage of the arts.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: According to one consultant, which group found the book demoralizing? Sentence: A teaching guide for the novel published by The English Journal cautions, \"what seems wonderful or powerful to one group of students may seem degrading to another\".",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What does clothing protect from things which may injure it? Sentence: Conversely, clothing may protect the environment from the clothing wearer, as with doctors wearing medical scrubs.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What percentage of those sold as slaves in North America landed at Sullivan's Island? Sentence: Africans were brought to Charles Town on the Middle Passage, first as \"servants\", then as slaves.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What did German pilots use to gain knowledge of an airfield? Sentence: The American observer Ingersoll reported at this time that \"as to the accuracy of the bombing of military objectives, here I make no qualifications.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: Pesticides are inspected often to make sure they meet up to date safety regulations from what period of time. Sentence: All registered pesticides are reviewed every 15 years to ensure they meet the proper standards.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What plants are the goal of sequencing wild forms of cotton? Sentence: These later types of reads will be instrumental in assembling an initial draft of the D genome.",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What did the knight leave at the summit of Rocciamelone? Sentence: The knight reached the summit of Rocciamelone where he left a bronze triptych of three crosses, a feat which he conducted with the use of ladders to traverse the ice.",
+          "output": "0",
+          "metadata_label_text": "not_entailment",
+          "metadata_original_label": 0
+        }
+      ]
+    },
+    {
+      "dataset": "dbpedia",
+      "examples": [
+        {
+          "input": "Title: Gangsta Harmony Content:  Gangsta Harmony is the debut album by singer/producer Mo B. Dick. It was released on April 13 1999 through No Limit Records and was produced by Mo B. Dick himself and the other members of Beats By the Pound. Gangsta Harmony wasn't much of a success only peaking at #66 on the Billboard 200 and #16 on the Top R&B/Hip-Hop Albums. There was a promotional video for the single Shoot' m up Movies. Master P Snoop Dogg & Mystikal was not feature on it.",
+          "output": "11",
+          "metadata_label_text": "class_11",
+          "metadata_original_label": 11
+        },
+        {
+          "input": "Title: Janina \u015awi\u0119tokrzyskie Voivodeship Content:  Janina [ja\u02c8nina] is a village in the administrative district of Gmina Busko-Zdr\u00f3j within Busko County \u015awi\u0119tokrzyskie Voivodeship in south-central Poland. It lies approximately 8 kilometres (5 mi) north-east of Busko-Zdr\u00f3j and 45 km (28 mi) south of the regional capital Kielce.The village has a population of 450.",
+          "output": "8",
+          "metadata_label_text": "class_8",
+          "metadata_original_label": 8
+        },
+        {
+          "input": "Title: Temple Hotels Content:  Temple Hotels Inc. is an open-ended real estate investment trust that owns hotels on the Canadian Prairies and Far North. Most of the companies hotels are located in the Fort McMurray area.",
+          "output": "0",
+          "metadata_label_text": "class_0",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Title: WAO!! Content:  WAO!! is the second album by Japanese ska band OreSkaBand released on May 23 2007. WAO!! stands for We Are Oreskaband!!",
+          "output": "11",
+          "metadata_label_text": "class_11",
+          "metadata_original_label": 11
+        },
+        {
+          "input": "Title: Charles H. Bronson Content:  Charles H. Bronson (b. 1949 in Kissimmee Florida) is the former Commissioner of Agriculture and Consumer Services for the U.S. State of Florida. He was appointed to the position in 2001 by Governor Jeb Bush then reelected to the position in 2002 and 2006.Bronson attended Osceola High School and graduated from the University of Georgia in 1972 earning a B.S. degree in agricultural education and animal and meat sciences.",
+          "output": "4",
+          "metadata_label_text": "class_4",
+          "metadata_original_label": 4
+        },
+        {
+          "input": "Title: Owens Corning Content:  Owens Corning Corporation is the world's largest manufacturer of fiberglass and related products. It was formed in 1935 as a partnership between two major American glassworks Corning Glass Works and Owens-Illinois. The company was spun off as a separate entity on November 1 1938. However major medical liabilities due to the company's use of asbestos as a fireproofing agent led to the company's Chapter 11 bankruptcy in 2000. The company emerged from Chapter 11 in October 2006.",
+          "output": "0",
+          "metadata_label_text": "class_0",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Title: Lima (models) Content:  Lima S.p.A (Lima Models) was a brand of railway models made in Vicenza Italy for almost 50 years from the early 1950s until the company ceased trading in 2004. Lima was a popular affordable brand of 00 gauge and N gauge model railway material in the UK more detailed H0 and N gauge models in France Germany Italy Switzerland and the United States as well as South Africa Scandinavia and Australia. Lima also produced a small range of 0 gauge models.",
+          "output": "0",
+          "metadata_label_text": "class_0",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Title: Tommaso Luini Content:  Tommaso Luini was an Italian painter of the Baroque period active mainly in Rome during 1620-1644. Follower of Caravaggio and called Il Caravaggino. Died at the age of 35.",
+          "output": "2",
+          "metadata_label_text": "class_2",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Title: A Grey Sigh in a Flower Husk Content:  A Grey Sigh in a Flower Husk is a split LP by Baroness and Unpersons. It is also known as Baroness - Third. The art work was done by Baroness singer John Baizley.",
+          "output": "11",
+          "metadata_label_text": "class_11",
+          "metadata_original_label": 11
+        },
+        {
+          "input": "Title: Junkers Ju 252 Content:  The Junkers Ju 252 was a cargo aircraft that made its first flight in late October 1941. The aircraft was planned as a replacement for the Junkers Ju 52/3m in commercial airline service but only a small number were built as cargo aircraft for the Luftwaffe.",
+          "output": "5",
+          "metadata_label_text": "class_5",
+          "metadata_original_label": 5
+        },
+        {
+          "input": "Title: The Great Pacific Ocean Content:  The Great Pacific Ocean is the second EP by Canadian rock band Thrush Hermit released in 1995 on CD and 12 picture disc by Murderecords. The EP was recorded and mixed by Steve Albini.",
+          "output": "11",
+          "metadata_label_text": "class_11",
+          "metadata_original_label": 11
+        },
+        {
+          "input": "Title: Charles Schaeffer School Content:  Charles Schaeffer School also known as the Seventh Day Adventist Church is a historic school building located in the Germantown neighborhood of Philadelphia Pennsylvania. It was built in 1876 and is a 3 1/2-story schist building in the Gothic-style. It features brownstone trim a pedimented gable roofline molded cornice with decorative brackets and a three-story projecting front section added in 1914.It was added to the National Register of Historic Places in 1986.",
+          "output": "6",
+          "metadata_label_text": "class_6",
+          "metadata_original_label": 6
+        },
+        {
+          "input": "Title: Beilschmiedia preussii Content:  Beilschmiedia preussii is a species of plant in the Lauraceae family. It is endemic to Cameroon. Its natural habitat is subtropical or tropical dry forests. It is threatened by habitat loss.",
+          "output": "10",
+          "metadata_label_text": "class_10",
+          "metadata_original_label": 10
+        },
+        {
+          "input": "Title: Huanglong Cave Content:  Huanglong Cave (simplified Chinese: \u9ec4\u9f99\u6d1e; traditional Chinese: \u9ec3\u9f8d\u6d1e; pinyin: hu\u00e1ngl\u00f3ng d\u00f2ng; literally yellow dragon cave) is a karst cave located near the Wulingyuan district of Zhangjiajie City Hunan People's Republic of China and a national 4A rated scenic area. As of 2010 the cave has over a million visitors per year. Since 1997 the Huanglong Cave scenic area has been managed by Beijing-based China Datong Co. Ltd.",
+          "output": "7",
+          "metadata_label_text": "class_7",
+          "metadata_original_label": 7
+        },
+        {
+          "input": "Title: Everything I'm Cracked Up to Be Content:  Everything I'm Cracked Up to Be is a book by Boston Massachusetts-based musician Jen Trynin. The book chronicles her short career as a musician on Warner Bros.",
+          "output": "13",
+          "metadata_label_text": "class_13",
+          "metadata_original_label": 13
+        },
+        {
+          "input": "Title: Gabriela Zapolska Content:  Maria Gabriela Stefania Korwin-Piotrowska (1857\u20131921) known as Gabriela Zapolska was a Polish novelist playwright naturalist writer feuilletonist theatre critic and stage actress. Zapolska wrote 41 plays 23 novels 177 short stories 252 works of journalism one film script and over 1500 letters.Zapolska received most recognition for her socio-satirical comedies. Among them Moralno\u015b\u0107 pani Dulskiej (The Morality of Mrs.",
+          "output": "2",
+          "metadata_label_text": "class_2",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Title: Gamecaster Content:  Gamecaster Inc. is an American corporation based in San Diego California. Gamecaster is an innovator in video game technology. The company's most notable achievement is its U.S. patented virtual camera control technology. In layman's terms Gamecaster is responsible for creating the world\u2019s first videogame camera. This technology is responsible for allowing the marriage between video gaming and the broadcasting of sports events; thus introducing video gaming as a spectator sport.",
+          "output": "0",
+          "metadata_label_text": "class_0",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Title: Over the Top (Cozy Powell album) Content:  Over The Top is an album by British rock drummer Cozy Powell. It was Powell's first solo album and it featured many well-known musicians playing alongside him.",
+          "output": "11",
+          "metadata_label_text": "class_11",
+          "metadata_original_label": 11
+        },
+        {
+          "input": "Title: Cayoosh Creek Content:  Cayoosh Creek is a northeast-flowing tributary of the Seton River in the Canadian province of British Columbia. The name is used locally to refer to the final reaches of the Seton River formerly Seton Creek and remains on the bridge-sign crossing the stream on BC Highway 99.",
+          "output": "7",
+          "metadata_label_text": "class_7",
+          "metadata_original_label": 7
+        },
+        {
+          "input": "Title: Bahar-e Sofla Content:  Bahar-e Sofla (Persian: \u0628\u0647\u0627\u0631\u0633\u0641\u0644\u064a\u200e also Romanized as Bah\u0101r-e Sofl\u00e1; also known as Bah\u0101r-e P\u0101\u2019\u012bn) is a village in Sangar Rural District in the Central District of Faruj County North Khorasan Province Iran. At the 2006 census its population was 124 in 38 families.",
+          "output": "8",
+          "metadata_label_text": "class_8",
+          "metadata_original_label": 8
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "Text classification datasets for LLM calibration",
+    "num_datasets": 5,
+    "total_examples": 150000
+  }
+}

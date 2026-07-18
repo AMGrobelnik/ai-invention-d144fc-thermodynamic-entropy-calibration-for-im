@@ -1,0 +1,26 @@
+{
+  "temperature_scaling_vs_uncalibrated": {
+    "wilcoxon_p_value_nll": 0.15868472609689777,
+    "bootstrap_p_value_ece": 0.343,
+    "ece_difference": -0.21181310911593415,
+    "ece_diff_ci_lower": -0.2321506667118233,
+    "ece_diff_ci_upper": -0.11768934990148186,
+    "cohens_d_nll": -0.4068017875756382
+  },
+  "thermodynamic_entropy_vs_uncalibrated": {
+    "wilcoxon_p_value_nll": 0.15868472609689777,
+    "bootstrap_p_value_ece": 0.509,
+    "ece_difference": -0.08115676929896407,
+    "ece_diff_ci_lower": -0.085479037149473,
+    "ece_diff_ci_upper": -0.07750861502827311,
+    "cohens_d_nll": -0.49822085553894785
+  },
+  "thermodynamic_entropy_vs_temperature_scaling": {
+    "wilcoxon_p_value_nll": 0.15868472609689777,
+    "bootstrap_p_value_ece": 0.392,
+    "ece_difference": 0.13065633981697009,
+    "ece_diff_ci_lower": 0.03122091810116048,
+    "ece_diff_ci_upper": 0.1504477614271206,
+    "cohens_d_nll": 0.21948249897562574
+  }
+}

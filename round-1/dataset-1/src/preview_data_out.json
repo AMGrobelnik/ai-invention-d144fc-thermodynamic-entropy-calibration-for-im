@@ -1,0 +1,124 @@
+{
+  "datasets": [
+    {
+      "dataset": "sst-2",
+      "examples": [
+        {
+          "input": "cultural satire ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": ", uncommonly sincere movie that portrays the frank humanity of ... emotional recovery ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "impressively ",
+          "output": "1",
+          "metadata_label_text": "positive",
+          "metadata_original_label": 1
+        }
+      ]
+    },
+    {
+      "dataset": "ag_news",
+      "examples": [
+        {
+          "input": "Finley to Remain in Southern Calif., with Angels (Reuters) Reuters - The Anaheim Angels have\\reportedly agreed to a contract with veteran free-agent\\outfielder Steve Finley.",
+          "output": "1",
+          "metadata_label_text": "Sports",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "UN 'will miss education target' A report suggests the UN's target of universal primary education by 2015 is unlikely to be reached.",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Hamas vows to hit Israeli targets abroad Al Qassam Brigades, the armed wing of Palestinian Islamic resistance movement Hamas, vowed on Sunday to hit Israeli targets abroad after one of its leaders was...",
+          "output": "0",
+          "metadata_label_text": "World",
+          "metadata_original_label": 0
+        }
+      ]
+    },
+    {
+      "dataset": "mnli",
+      "examples": [
+        {
+          "input": "Premise: Eventually his body was washed ashore, and identified beyond any possible doubt. Hypothesis: A man's body washed ashore.",
+          "output": "0",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 0
+        },
+        {
+          "input": "Premise: The giant ashlars (square stone blocks) represent for the Jewish people their past glory, as well as a promise and a dream come true. Hypothesis: Jews do not use anything to symbolize their h...",
+          "output": "2",
+          "metadata_label_text": "contradiction",
+          "metadata_original_label": 2
+        },
+        {
+          "input": "Premise: The tiny but powerful community of Parsis brought Zoroastrianism from Iran, and its people shine in business today. Hypothesis: Zoroastrianism was brought from Iran to Parsis, a tiny communit...",
+          "output": "0",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 0
+        }
+      ]
+    },
+    {
+      "dataset": "qnli",
+      "examples": [
+        {
+          "input": "Question: Which historical novel records that Zhejiang had the best-equipped, strong navy force? Sentence: The story depicts how the states of Wei (\u9b4f) and Shu (\u8700), lack of material resources, avoided ...",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What is thought to be the modern name of the island Legazpi called Los Barbudos? Sentence: On January 10, the Spaniards sighted another island that they named \"Placeres\", perhaps Ailuk; ten ...",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        },
+        {
+          "input": "Question: What was home to the warlord Yan Baihu? Sentence: Despite the removal of their court from Kuaiji to Jianye (present-day Nanjing), they continued development of the region and benefitted from...",
+          "output": "1",
+          "metadata_label_text": "entailment",
+          "metadata_original_label": 1
+        }
+      ]
+    },
+    {
+      "dataset": "dbpedia",
+      "examples": [
+        {
+          "input": "Title: Gangsta Harmony Content:  Gangsta Harmony is the debut album by singer/producer Mo B. Dick. It was released on April 13 1999 through No Limit Records and was produced by Mo B. Dick himself and ...",
+          "output": "11",
+          "metadata_label_text": "class_11",
+          "metadata_original_label": 11
+        },
+        {
+          "input": "Title: Janina \u015awi\u0119tokrzyskie Voivodeship Content:  Janina [ja\u02c8nina] is a village in the administrative district of Gmina Busko-Zdr\u00f3j within Busko County \u015awi\u0119tokrzyskie Voivodeship in south-central Pol...",
+          "output": "8",
+          "metadata_label_text": "class_8",
+          "metadata_original_label": 8
+        },
+        {
+          "input": "Title: Temple Hotels Content:  Temple Hotels Inc. is an open-ended real estate investment trust that owns hotels on the Canadian Prairies and Far North. Most of the companies hotels are located in the...",
+          "output": "0",
+          "metadata_label_text": "class_0",
+          "metadata_original_label": 0
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "Text classification datasets for LLM calibration",
+    "num_datasets": 5,
+    "total_examples": 150000
+  }
+}

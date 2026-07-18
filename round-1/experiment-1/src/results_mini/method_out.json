@@ -1,0 +1,50 @@
+{
+  "results": {
+    "uncalibrated": {
+      "ece": 0.08099391741341383,
+      "brier": 0.12673295078750527,
+      "nll": 0.3999906349758092,
+      "accuracy": 0.8457142857142858
+    },
+    "temperature_scaling": {
+      "ece": 0.2447678827473219,
+      "brier": 0.18233709819286414,
+      "nll": 0.5523870770912916,
+      "accuracy": 0.8457142857142858
+    },
+    "thermodynamic_entropy": {
+      "ece": 0.07287188364158798,
+      "brier": 0.12897593960251158,
+      "nll": 0.4040731067381401,
+      "accuracy": 0.8457142857142858
+    }
+  },
+  "hyperparameters": {
+    "temperature_scaling": {
+      "T_opt": 4.999994368852396
+    },
+    "thermodynamic_entropy": {
+      "T_0": 1.0,
+      "alpha": 0.5
+    }
+  },
+  "dataset_info": {
+    "name": "sst2",
+    "model": "distilbert-base-uncased",
+    "n_train": 523,
+    "n_val": 174,
+    "n_test": 175,
+    "n_classes": 2
+  },
+  "experiment_info": {
+    "timestamp": "2026-07-18 15:48:49",
+    "hardware": {
+      "num_cpus": 48,
+      "has_gpu": false,
+      "vram_gb": 0,
+      "device": "cpu",
+      "total_ram_gb": 30.999998464,
+      "available_ram_gb": 30.999998464
+    }
+  }
+}

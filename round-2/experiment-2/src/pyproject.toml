@@ -1,0 +1,12 @@
+[project]
+name = "temperature-annealing-experiment"
+version = "0.1.0"
+description = "Test temperature annealing for LLM calibration - experiment artifact"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.0.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
