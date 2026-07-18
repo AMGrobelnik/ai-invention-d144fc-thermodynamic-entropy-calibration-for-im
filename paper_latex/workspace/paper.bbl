@@ -1,0 +1,108 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[AI(2023)]{TowardsAI2023}
+Towards AI.
+\newblock The softmax function every transformer uses is the boltzmann
+  distribution, not inspired by it.
+\newblock
+  \url{https://pub.towardsai.net/the-softmax-function-every-transformer-uses-is-the-boltzmann-distribution-not-inspired-by-it-not-080fb2036918},
+  2023.
+
+\bibitem[Brier(1950)]{Brier1950}
+Glenn~W. Brier.
+\newblock Verification of forecasts expressed in terms of probability.
+\newblock \emph{Monthly Weather Review}, 78\penalty0 (1):\penalty0 1--3, 1950.
+
+\bibitem[Exchange(2023)]{PhysicsSE2023}
+Physics~Stack Exchange.
+\newblock Softmax function - relation to statistical mechanics.
+\newblock
+  \url{https://physics.stackexchange.com/questions/669314/softmax-function-relation-to-stat-mech},
+  2023.
+
+\bibitem[Gal and Ghahramani(2016)]{Gal2016}
+Yarin Gal and Zoubin Ghahramani.
+\newblock Dropout as a bayesian approximation: Representing model uncertainty
+  in deep learning.
+\newblock In \emph{Proceedings of the 33rd International Conference on Machine
+  Learning (ICML)}, 2016.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{Guo2017}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning (ICML)}, 2017.
+
+\bibitem[Jaynes(1957)]{Jaynes1957}
+Edwin~T. Jaynes.
+\newblock Information theory and statistical mechanics.
+\newblock \emph{Physical Review}, 106\penalty0 (4):\penalty0 620--630, 1957.
+
+\bibitem[Joy et~al.(2023)Joy, Pinto, Lim, Torr, and Dokania]{Joy2023}
+Thomas Joy, Francesco Pinto, S.~N. Lim, Philip H.~S. Torr, and P.~K. Dokania.
+\newblock Sample-dependent adaptive temperature scaling for improved
+  calibration.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  37\penalty0 (12), 2023.
+
+\bibitem[Kirkpatrick et~al.(1983)Kirkpatrick, Gelatt, and
+  Vecchi]{Kirkpatrick1983}
+S.~Kirkpatrick, C.~D. Gelatt, and M.~P. Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock \emph{Science}, 220\penalty0 (4598):\penalty0 671--680, 1983.
+
+\bibitem[Kuhn et~al.(2023)Kuhn, Gal, and Farquhar]{Kuhn2023}
+Lorenz Kuhn, Yarin Gal, and Sebastian Farquhar.
+\newblock Semantic uncertainty: Linguistic invariances for uncertainty
+  estimation in natural language generation.
+\newblock \emph{Proceedings of the 11th International Conference on Learning
+  Representations (ICLR)}, 2023.
+
+\bibitem[Kull et~al.(2019)Kull, Perello-Nieto, Kangsepp, Filho, Song, and
+  Flach]{Kull2019}
+Meelis Kull, Miquel Perello-Nieto, Markus Kangsepp, Telmo~Silva Filho, Hao
+  Song, and Peter Flach.
+\newblock Beyond temperature scaling: Obtaining well-calibrated multi-class
+  probabilities with dirichlet calibration.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~32, 2019.
+
+\bibitem[Lin et~al.(2021)Lin, Hilton, and Evans]{Lin2021}
+Stephanie Lin, Jacob Hilton, and Owain Evans.
+\newblock Truthfulqa: Measuring how models mimic human falsehoods.
+\newblock \emph{arXiv preprint arXiv:2109.07914}, 2021.
+
+\bibitem[Tomani et~al.(2021)Tomani, Gruber, Erdem, Cremers, and
+  Buettner]{Tomani2021}
+Christian Tomani, Sebastian Gruber, Muhammed~E. Erdem, Daniel Cremers, and
+  Florian Buettner.
+\newblock Parameterized temperature scaling for boosting the expressive power
+  of convolutional neural network architectures.
+\newblock In \emph{Proceedings of the IEEE/CVF Winter Conference on
+  Applications of Computer Vision (WACV)}, 2021.
+
+\bibitem[Wang et~al.(2018)Wang, Singh, Michael, Hill, Levy, and
+  Bowman]{Wang2018}
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and
+  Samuel~R. Bowman.
+\newblock Glue: A multi-task benchmark and analysis platform for natural
+  language understanding.
+\newblock \emph{arXiv preprint arXiv:1804.07461}, 2018.
+
+\bibitem[Xie et~al.(2024)Xie, Qing, Huang, and Xiao]{Xie2024}
+Hanxing Xie, Yunlong Qing, Yufeng Huang, and Yuhan Xiao.
+\newblock Calibrating language models with adaptive temperature scaling.
+\newblock \emph{arXiv preprint arXiv:2409.19817}, 2024.
+
+\bibitem[Yang et~al.(2024)]{Yang2024}
+Alan Yang et~al.
+\newblock Let it calm: Exploratory annealed decoding for verifiable
+  reinforcement learning.
+\newblock \url{https://yangalan123.github.io/ead_rlvr/}, 2024.
+
+\end{thebibliography}

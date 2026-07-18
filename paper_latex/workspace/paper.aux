@@ -1,0 +1,122 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Guo2017}
+\citation{Guo2017}
+\citation{Guo2017}
+\citation{Joy2023,Tomani2021,Xie2024}
+\citation{PhysicsSE2023,TowardsAI2023}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{Guo2017}
+\citation{Joy2023,Xie2024}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Problem Statement}{2}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Proposed Approach}{2}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Summary of Contributions}{2}{subsection.1.3}\protected@file@percent }
+\citation{Guo2017}
+\citation{Guo2017}
+\citation{Kull2019}
+\citation{Tomani2021}
+\citation{Joy2023}
+\citation{Xie2024}
+\citation{Joy2023}
+\citation{Tomani2021}
+\citation{Gal2016}
+\citation{Kuhn2023}
+\citation{Kuhn2023}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Calibration Methods for Neural Networks}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Entropy-Based Uncertainty Estimation}{3}{subsection.2.2}\protected@file@percent }
+\citation{Kuhn2023}
+\citation{Kuhn2023}
+\citation{Jaynes1957}
+\citation{PhysicsSE2023,TowardsAI2023}
+\citation{Jaynes1957}
+\citation{Kirkpatrick1983}
+\citation{Yang2024}
+\citation{Joy2023}
+\citation{Tomani2021}
+\citation{PhysicsSE2023,TowardsAI2023}
+\citation{Guo2017}
+\citation{Brier1950}
+\citation{Guo2017}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Thermodynamic Principles in Machine Learning}{4}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Calibration Metrics and Benchmarks}{4}{subsection.2.4}\protected@file@percent }
+\citation{Kuhn2023}
+\citation{Wang2018}
+\citation{Lin2021}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{5}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Thermodynamic Entropy Calibration}{5}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of Thermodynamic Entropy Calibration (TEC). Given classifier logits $z_i$, the method computes predictive entropy $H(p_i)$ and decision margin $m_i$, then applies per-sample temperature $T_i = T_0 \cdot (1 + \alpha H(p_i) + \beta (1-m_i))$ before the final softmax. The physical analogy treats logits as negative energies and temperature as a control for distribution entropy.}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:tec_overview}{{1}{6}{Overview of Thermodynamic Entropy Calibration (TEC). Given classifier logits $z_i$, the method computes predictive entropy $H(p_i)$ and decision margin $m_i$, then applies per-sample temperature $T_i = T_0 \cdot (1 + \alpha H(p_i) + \beta (1-m_i))$ before the final softmax. The physical analogy treats logits as negative energies and temperature as a control for distribution entropy}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Physical Interpretation}{6}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Hyperparameter Tuning}{6}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:hyperparam}{{3.3}{6}{Hyperparameter Tuning}{subsection.3.3}{}}
+\citation{Guo2017}
+\citation{Guo2017}
+\citation{Brier1950}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Baseline Methods}{7}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{7}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experimental Setup}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Dataset statistics. All datasets are standardized to 600 train / 200 validation / 200 test examples with stratified sampling to preserve class distribution.}}{7}{table.1}\protected@file@percent }
+\newlabel{tab:datasets}{{1}{7}{Dataset statistics. All datasets are standardized to 600 train / 200 validation / 200 test examples with stratified sampling to preserve class distribution}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Main Results}{7}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:results}{{4.2}{7}{Main Results}{subsection.4.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Calibration performance on five text classification datasets using pre-trained transformer embeddings. Values are ECE (lower is better). Bold indicates best (lowest) ECE per dataset.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:main_results}{{2}{8}{Calibration performance on five text classification datasets using pre-trained transformer embeddings. Values are ECE (lower is better). Bold indicates best (lowest) ECE per dataset}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Expected Calibration Error (ECE, lower is better) for uncalibrated baseline, temperature scaling (TS), and Thermodynamic Entropy Calibration (TEC) across five text classification datasets. TEC outperforms TS on QNLI and DBpedia, while TS outperforms TEC on SST-2, AG News, and MNLI. Both methods significantly improve over uncalibrated baseline on all datasets.}}{8}{figure.2}\protected@file@percent }
+\newlabel{fig:ece_comparison}{{2}{8}{Expected Calibration Error (ECE, lower is better) for uncalibrated baseline, temperature scaling (TS), and Thermodynamic Entropy Calibration (TEC) across five text classification datasets. TEC outperforms TS on QNLI and DBpedia, while TS outperforms TEC on SST-2, AG News, and MNLI. Both methods significantly improve over uncalibrated baseline on all datasets}{figure.2}{}}
+\citation{Kull2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces ECE decomposition by easy/hard splits for QNLI and DBpedia, where TEC outperforms temperature scaling. Hard examples have substantially higher uncalibrated ECE, and TEC's per-sample adjustment provides greater improvement for this subset.}}{9}{figure.3}\protected@file@percent }
+\newlabel{fig:ece_decomposition}{{3}{9}{ECE decomposition by easy/hard splits for QNLI and DBpedia, where TEC outperforms temperature scaling. Hard examples have substantially higher uncalibrated ECE, and TEC's per-sample adjustment provides greater improvement for this subset}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}When Does TEC Provide Benefits?}{9}{subsection.4.3}\protected@file@percent }
+\citation{Kirkpatrick1983}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Reliability diagrams for Temperature Scaling (TS) and Thermodynamic Entropy Calibration (TEC) on (a) QNLI, where TEC outperforms TS, and (b) SST-2, where TS outperforms TEC. A perfectly calibrated model falls on the diagonal line (dashed). TEC's reliability curve is closer to the diagonal on QNLI, while TS is better on SST-2.}}{10}{figure.4}\protected@file@percent }
+\newlabel{fig:reliability}{{4}{10}{Reliability diagrams for Temperature Scaling (TS) and Thermodynamic Entropy Calibration (TEC) on (a) QNLI, where TEC outperforms TS, and (b) SST-2, where TS outperforms TEC. A perfectly calibrated model falls on the diagonal line (dashed). TEC's reliability curve is closer to the diagonal on QNLI, while TS is better on SST-2}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Reliability Diagrams}{10}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Inference-Time Temperature Annealing}{10}{subsection.4.5}\protected@file@percent }
+\citation{Joy2023}
+\citation{Jaynes1957}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{11}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Interpretation of Results}{11}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Comparison to Adaptive Temperature Scaling}{11}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Theoretical Implications}{11}{subsection.5.3}\protected@file@percent }
+\citation{Guo2017}
+\citation{Kuhn2023}
+\citation{Kuhn2023}
+\citation{Joy2023}
+\bibstyle{plainnat}
+\bibdata{references}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Limitations}{12}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{12}{section.6}\protected@file@percent }
+\bibcite{TowardsAI2023}{{1}{2023}{{AI}}{{}}}
+\bibcite{Brier1950}{{2}{1950}{{Brier}}{{}}}
+\bibcite{PhysicsSE2023}{{3}{2023}{{Exchange}}{{}}}
+\bibcite{Gal2016}{{4}{2016}{{Gal and Ghahramani}}{{}}}
+\bibcite{Guo2017}{{5}{2017}{{Guo et~al.}}{{Guo, Pleiss, Sun, and Weinberger}}}
+\bibcite{Jaynes1957}{{6}{1957}{{Jaynes}}{{}}}
+\bibcite{Joy2023}{{7}{2023}{{Joy et~al.}}{{Joy, Pinto, Lim, Torr, and Dokania}}}
+\bibcite{Kirkpatrick1983}{{8}{1983}{{Kirkpatrick et~al.}}{{Kirkpatrick, Gelatt, and Vecchi}}}
+\bibcite{Kuhn2023}{{9}{2023}{{Kuhn et~al.}}{{Kuhn, Gal, and Farquhar}}}
+\bibcite{Kull2019}{{10}{2019}{{Kull et~al.}}{{Kull, Perello-Nieto, Kangsepp, Filho, Song, and Flach}}}
+\bibcite{Lin2021}{{11}{2021}{{Lin et~al.}}{{Lin, Hilton, and Evans}}}
+\bibcite{Tomani2021}{{12}{2021}{{Tomani et~al.}}{{Tomani, Gruber, Erdem, Cremers, and Buettner}}}
+\bibcite{Wang2018}{{13}{2018}{{Wang et~al.}}{{Wang, Singh, Michael, Hill, Levy, and Bowman}}}
+\bibcite{Xie2024}{{14}{2024}{{Xie et~al.}}{{Xie, Qing, Huang, and Xiao}}}
+\bibcite{Yang2024}{{15}{2024}{{Yang et~al.}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Full Results}{14}{appendix.A}\protected@file@percent }
+\newlabel{app:full_results}{{A}{14}{Full Results}{appendix.A}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Full calibration results on five datasets. Accuracy is identical across methods within each dataset (calibration does not change predictions).}}{14}{table.3}\protected@file@percent }
+\newlabel{tab:full_results}{{3}{14}{Full calibration results on five datasets. Accuracy is identical across methods within each dataset (calibration does not change predictions)}{table.3}{}}
+\gdef \@abspage@last{14}
